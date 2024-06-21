@@ -7,14 +7,14 @@ type StudentType = {
     technologies: Array<TechnologiesType>
 }
 
-type CityType = {
+type LocalCityType = {
     title: string,
     countryTitle: string
 }
 
 type AddressType = {
     streetTitle: string
-    city: CityType
+    city: LocalCityType
 }
 
 type TechnologiesType = {
