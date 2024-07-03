@@ -9,7 +9,7 @@ export function multiply(a: number, b: number) {
 
 export function splitIntoWords(sentence: string) {
     // return sentence.toLowerCase().split(" ")
-    //     .filter(w => w !== "")
+    //     .04-filter(w => w !== "")
     //     .map(w => w.replace("!", ""));
 
     const words = sentence.toLowerCase().split(" ");

@@ -1,6 +1,6 @@
 import {cheapPredicate} from "./04";
 
-test("should filter people over 90", () => {
+test("should 04-filter people over 90", () => {
     const ages = [18, 20, 22, 1, 100, 90, 14]
     const oldAges = ages.filter(age => age > 90)
 
@@ -9,7 +9,7 @@ test("should filter people over 90", () => {
 })
 
 
-test("should filter courses cheaper than 160", () => {
+test("should 04-filter courses cheaper than 160", () => {
     const courses = [
         {
             title: "CSS",
