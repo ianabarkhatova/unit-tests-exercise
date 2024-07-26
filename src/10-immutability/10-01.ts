@@ -29,7 +29,16 @@ export function makeHairStyle(user: UserType, power: number) {
 
 export function moveUser(user: UserWithLaptopType, city: string) {
     return {
+        //создаем копию объекта user
         ...user,
+        //создаем копию объекта address и перезатираем city
         address: {...user.address, city: city}
+    }
+}
+
+export function upgradeUserLaptop(user: UserWithLaptopType, laptop: string) {
+    return {
+        ...user,
+        laptop: {...user.laptop, title: 'Macbook'}
     }
 }
